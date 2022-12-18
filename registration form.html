@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>
+REGISTRATION FORM
+</title>
+</head>
+<body>
+<center>
+<h3>STUDENT REGISTRATION FORM</h3>
+<form name="stdregform" method="get">
+<table border="2" cellpadding="10">
+<tr><td>FIRST NAME</td>
+<td><input type="text" name="first-name" maxlength="30"></td>
+</tr>
+<tr><td>LAST NAME</td>
+<td><input type="text" name="last-name" maxlength="30"></td>
+</tr>
+<tr><td>D-O-B</td>
+<td>
+<select>
+<option>DAY</option>
+<option>MONTH</option>
+<option>JAN</option>
+<option>FEB</option>
+<option>MAR</option>
+<option>APR</option>
+<option>MAY</option>
+<option>JUN</option>
+<option>JUL</option>
+<option>AUG</option>
+<option>SEP</option>
+<option>OCT</option>
+<option>NOV</option>
+<option>DEC</option>
+</select>
+<select>
+<option>YEAR</option>
+<option>1999</option>
+<option>2000</option>
+<tr><td>MOBILE NUM</td>
+<td><input type="number" name="mobilenum" pattern="[7-9]{1}[0-9]{9}" minlength="10" maxlength="10">
+</td>
+</tr>
+<tr><td>GENDER</td>
+<td>Male<input type="radio" name="gender" value="male">
+Female<input type="radio" name="gender" value="female">
+</td>
+</tr>
+<tr><td>ADDRESS</td>
+<td><textarea rows="5" cols="40"></textarea></td>
+</tr>
+<tr><td>CITY</td>
+<td><input type="text" name="city" maxlength="30">
+</td>
+</tr>
+<tr><td>PINCODE</td>
+<td><input type="number" name="pincode" minlength="6" maxlength="6">
+</td>
+</tr>
+<tr><td>STATE</td>
+<td><input type="text" name="state" maxlength="30">
+</td>
+</tr>
+<tr><td>COUNTRY</td>
+<td>Male<input type="text" name="country" value="India">
+</td>
+</tr>
+<tr><td>HOBBIES</td>
+<td>Drawing<input type="checkbox" name="drawing" value="on">
+Singing<input type="checkbox" name="singing" value="on">
+Dancing<input type="checkbox" name="dancing" value="on">
+Sketching<input type="checkbox" name="sketching" value="on">
+Others<input type="checkbox" name="others" value="on">
+<input type="text" name="hobbies">
+</td>
+</tr>
+</table>
+<tr><td>COURSES APPLIED FOR</td><br>
+<td>MCA<input type="radio" name="course" value="MCA"><br>
+Mtech<input type="radio" name="course" value="Mtech"><br>
+<td>MSc<input type="radio" name="course" value="MSc"></td><br>
+<td>PhD<input type="radio" name="course" value="PhD"></td>
+</td>
+</tr><br><br>
+<tr><td>TYPE YOUR PASSWORD</td>
+<td><input type="password" name="pwd" maxlength="30">
+</td>
+</tr><br><br>
+<tr>
+<td>
+UPLOAD YOUR PHOTO
+</td>
+<td>
+<input type="file">
+</td>
+</tr><br><br>
+<tr><td>DATE OF TC</td>
+<td><input type="date" name="date"></td></tr><br><br>
+<tr><td colspan="2"><center><input type="submit" name="submit" value="submit">
+<input type="reset" name="reset" value="result"></td></tr></center>
+</center>
+</body>
+
